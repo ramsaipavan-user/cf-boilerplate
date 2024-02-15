@@ -64,7 +64,7 @@ body {
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
-  color: var(--text-color);
+  color: #de6f6f;
   background-color: var(--background-color);
   display: none;
 }
@@ -207,4 +207,8 @@ main .section {
 main .section.light,
 main .section.highlight {
   background-color: rgb(213, 208, 230);
+}
+
+header nav .nav-sections ul {
+  color: 757575;
 }
