@@ -64,7 +64,7 @@ body {
   margin: 0;
   font-family: var(--body-font-family);
   line-height: 1.6;
-  color: #de6f6f;
+  color: var(--text-color);
   background-color: var(--background-color);
   display: none;
 }
