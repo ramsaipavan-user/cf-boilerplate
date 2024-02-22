@@ -27,6 +27,7 @@
     border-bottom: 1px solid var(--background-color);
     background-color: var(--background-color);
     cursor: initial;
+    border: none;
   }
   
   .tabs .tabs-list button[aria-selected="false"]:hover,
@@ -39,6 +40,7 @@
     padding: 0 16px;
     border: 1px solid var(--dark-color);
     overflow: auto;
+    border: none;
   }
   
   .tabs .tabs-panel[aria-hidden="true"] {

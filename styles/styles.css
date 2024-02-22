@@ -206,7 +206,7 @@ main .section {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: rgb(213, 208, 230);
+  background-color: rgb(71, 24, 223);
 }
 
 header nav .nav-sections ul {
