@@ -5,11 +5,11 @@
       "id": "library",
       "title": "Library",
       "environments": [ "edit" ],
-      "url": "/tools/sidekick/library.html",
+      "url": "https://local--cf-boilerplate--ramsaipavan-user.hlx.page/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
-    },
+},
   
-     {
+{
         "id": "asset-library",
         "title": "My Assets",
         "environments": [ "edit" ],
