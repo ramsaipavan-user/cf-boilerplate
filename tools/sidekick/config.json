@@ -7,9 +7,9 @@
       "environments": [ "edit" ],
       "url": "/tools/sidekick/library.html",
       "includePaths": [ "**.docx**" ]
-},
+    },
   
-{
+     {
         "id": "asset-library",
         "title": "My Assets",
         "environments": [ "edit" ],
