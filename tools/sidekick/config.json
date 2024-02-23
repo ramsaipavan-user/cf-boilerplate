@@ -16,7 +16,8 @@
         "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
         "isPalette": true,
         "includePaths": [ "**.docx**" ],
-        "paletteRect": "top: 50px; bottom: 10px; right :10px; left: auto; height: cal(100vh-60px); width: 800px;"
+        "paletteRect": "top: 50px; bottom: 10px; right :10px; left: auto; height: cal(100vh-60px); width: 800px;",
+        "passConfig":true
       }
     ]
   }
