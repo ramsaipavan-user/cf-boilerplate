@@ -6,7 +6,7 @@
       "title": "Library",
       "environments": [ "edit" ],
       "url": "https://local--cf-boilerplate--ramsaipavan-user.hlx.page/tools/sidekick/library.html",
-      "includePaths": [ "**.docx**" ],
+      "includePaths": [ "**.docx**" ]
 },
   
 {
