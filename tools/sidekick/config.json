@@ -1,5 +1,5 @@
 {
-  "project": "Content Factory",
+  "project": "cf boilerplate",
   "plugins": [
     {
       "id": "library",
