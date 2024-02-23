@@ -13,10 +13,10 @@
         "id": "asset-library",
         "title": "My Assets",
         "environments": [ "edit" ],
-        "isPalette": true,
-        "paletteRect": "top: 50px; bottom: 10px; right :10px; left: auto; height: cal(100vh-60px); width: 800px;",
         "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html?rail=false",
-        "includePaths": [ "**.docx**" ]
+        "isPalette": true,
+        "includePaths": [ "**.docx**" ],
+        "paletteRect": "top: 50px; bottom: 10px; right :10px; left: auto; height: cal(100vh-60px); width: 800px;"
       }
     ]
   }
