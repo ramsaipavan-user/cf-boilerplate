@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "project": "cf boilerplate",
   "plugins": [
     {
@@ -21,3 +22,29 @@
       }
     ]
   }
+=======
+    "project": "Content Factory",
+    "plugins": [
+      {
+        "id": "assets-library",
+        "title": "My Assets",
+        "environments": [ "edit" ],
+        "isPalette": true,
+        "paletteRect": "top: 60px; bottom: 20px; left: 20px; height: 650px; width: 360px;",
+        "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
+        "includePaths": [ "**.docx**" ],
+        "passConfig": true
+      },
+      {
+        "id": "library",
+        "title": "Library",
+        "environments": [ "edit" ],
+        "isPalette": true,
+        "paletteRect": "top: 50px; bottom: 210px; right :10px; left: auto; height: calc(100vh-60px); width: 800px;",
+        "url": "https://local--cf-boilerplate--ramsaipavan-user.hlx.page/tools/sidekick/library.html",
+        "includePaths": [ "**.docx**" ],
+        "passConfig": true
+      }
+    ]
+  }
+>>>>>>> 1400f51fec113e78a426a4bd5126e6a43423e378

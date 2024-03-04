@@ -1,23 +1,23 @@
-.teaser > div {
+.teaser>div {
     display: grid;
     grid-template-areas: "teaser";
     align-items: end;
     justify-items: center;
 }
 
-.teaser > div > div {
+.teaser>div>div {
     grid-area: teaser;
 }
 
 /* teaser image */
-.teaser > div > div:first-child {
+.teaser>div>div:first-child {
     height: 40pc;
     max-height: 40pc;
     width: 100%;
 }
 
 /* teaser content */
-.teaser > div > div:last-child {
+.teaser>div>div:last-child {
     background-color: #fff;
     min-height: 180px;
     width: 75%;

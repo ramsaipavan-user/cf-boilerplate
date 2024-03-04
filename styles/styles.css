@@ -38,7 +38,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 100px;
 }
 
 @font-face {
@@ -131,10 +131,8 @@ a:any-link {
   text-decoration: none;
 }
 
-a:hover {
-  /* text-decoration: underline; */
+.active,a:hover {
   color: #e55f4c;
-  /* color: var(--link-hover-color); */
 }
 
 /* buttons */
@@ -169,9 +167,11 @@ button:disabled, button:disabled:hover {
 }
 
 a.button.secondary, button.secondary {
-  background-color: unset;
-  border: 2px solid currentcolor;
-  color: var(--text-color)
+  background-color: rgb(229, 95, 76);
+  color: white;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  border-radius: 0px;
 }
 
 main img {
