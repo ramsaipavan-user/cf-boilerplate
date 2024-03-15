@@ -53,8 +53,9 @@ main{
     font-weight: 900;
     font-size: 16px;
     line-height: 19.2px;
-    padding: 16px;
+    /* padding: 14px; */
     border: 1px solid;
+    font-family :lato;
 }
 
 .cmp-teaser-1 > .teaser-wrapper >.teaser a:hover{
@@ -129,7 +130,6 @@ main{
     font-size: 16px;
     line-height: 19.2px;
     padding: 16px;
-    border: 1px solid;
 }
 
 .cmp-teaser-2 > .teaser-wrapper> .teaser a:hover{
