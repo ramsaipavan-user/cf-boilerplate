@@ -15,17 +15,23 @@ main{
     display: flex;
     flex-direction: column-reverse;
     row-gap: 10px;
-    padding-left: 14px;
-    padding-right: 14px;
+    width: 100%;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser > div > div{
+    width: 96%;
+    margin: 0 auto;
 }
 
 .cmp-teaser-5 > .teaser-wrapper> .teaser > div {
     background-color: #fff;
     width: 100%;
-    padding: 0 28px;
+    padding: 0 8px;
     margin: 0;
     display: flex;
     flex-direction: column;
+    width: 97%;
+    margin: 0 auto;
 }
 
 .cmp-teaser-5:hover > .teaser-wrapper > .teaser > div {
@@ -107,23 +113,24 @@ main{
 .cmp-teaser-3 > .teaser-wrapper> .teaser > div > div:nth-child(2) {
     position: absolute;
     background-color: #fff;
-    width: 70%;
+    width: 74%;
     bottom: 216px;
     left: 163px;
     padding: 0 28px 10px;
-    margin: 0;
+    margin-top: -180px;
 }
 
 .cmp-teaser-4 > .teaser-wrapper> .teaser > div > div:nth-child(2) {
     background-color: #fff;
-    width: 100%;
-    padding: 0 28px;
-    margin: 0;
+    width: 97%;
+    padding: 0 8px 8px;
+    margin: 0 auto;
 }
 
 .cmp-teaser-1:hover > .teaser-wrapper > .teaser > div > div:nth-child(2) {
     background-color: #d7ecf3;
     transition: background-color 0.5s;
+
 }
 
 .cmp-teaser-2 > .teaser-wrapper> .teaser img {
@@ -242,11 +249,12 @@ main{
 }
 
 .cmp-teaser-3> .teaser-wrapper > .teaser p {
-    font-size: 16px;
+    font-size: 19px;
     font-weight: 400;
     line-height: 1.75;
     text-align: justify;
     margin-bottom: 33px;
+    font-family: sans-serif;
     
 }
 
@@ -275,28 +283,29 @@ main{
 }
 
 .cmp-teaser-4 > .teaser-wrapper> .teaser p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.75;
     text-align: justify;
     margin-bottom: 33px;
+    font-family: sans-serif;
     
 }
 
 
 .cmp-teaser-4:hover > .teaser-wrapper > .teaser > div > div:nth-child(2) {
     background-color: #d7ecf3;
-    transition: background-color 0.5s;
+    /* transition: background-color 0.5s; */
 }
 
 .cmp-teaser-4:hover > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
     transform: scale(1.02);
-    transition-duration: 1s;
+    /* transition-duration: 0.5s; */
 }
 
 .cmp-teaser-4:not(:hover) > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
     transform: scale(1);
-    transition-duration: 1s;
+    /* transition-duration: 0.5s; */
 }
 
 .cmp-teaser-5 > .teaser-wrapper> .teaser picture {
@@ -314,10 +323,9 @@ main{
 }
 
 .cmp-teaser-5 > .teaser-wrapper> .teaser p {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 1.75;
     text-align: justify;
-    margin-bottom: 33px;
-    
+    font-family: sans-serif;
 }

@@ -1,0 +1,18 @@
+.separator-container{
+    width: 100%;
+    margin: 0 auto ;
+    padding: 0;
+}
+
+.separator-container .separator-wrapper{
+    width: 100%;
+    margin: 1em 0;
+}
+
+.separator-container .separator-wrapper .separator{
+    border-bottom: 1px solid #ebebeb;
+    padding: 2px 14px;
+    display: block;
+    line-height: 24px;
+    border-width: 3px;
+}
