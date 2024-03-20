@@ -1,0 +1,331 @@
+main{
+    overflow: hidden;
+}
+
+.cmp-teaser-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser > div {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column-reverse;
+    row-gap: 10px;
+    width: 100%;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser > div > div{
+    width: 96%;
+    margin: 0 auto;
+}
+
+.cmp-teaser-5 > .teaser-wrapper> .teaser > div {
+    background-color: #fff;
+    width: 100%;
+    padding: 0 8px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    margin: 0 auto;
+}
+
+.cmp-teaser-5:hover > .teaser-wrapper > .teaser > div {
+    background-color: #d7ecf3;
+    transition: background-color 0.5s;
+}
+
+.cmp-teaser-1 > .teaser-wrapper> .teaser > div > div:nth-child(2) {
+    position: absolute;
+    background-color: #fff;
+    width: 75%;
+    top: 230px;
+    left: 150px;
+    padding: 0 28px;
+    margin: 0;
+    height: fit-content;
+}
+
+.cmp-teaser-1 > .teaser-wrapper > .teaser img {
+    margin: 0;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+
+.cmp-teaser-1 > .teaser-wrapper >.teaser h2 {
+    color: #3a3a3a;
+    font-family:"Tiempos Headline", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.cmp-teaser-1 > .teaser-wrapper >.teaser p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: justify;
+    margin-bottom: 33px;
+    color: #3a3a3a;
+    font-family: sans-serif;
+    
+}
+
+.cmp-teaser-1 > .teaser-wrapper >.teaser a {
+    color: #e55f4c;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px;
+    border: 1px solid;
+    font-family :sans-serif;
+}
+
+.cmp-teaser-2 > .teaser-wrapper> .teaser a {
+    color: #e55f4c;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19.2px;
+    padding: 16px;
+    font-family: sans-serif;
+}
+
+.cmp-teaser-1 > .teaser-wrapper >.teaser a:hover{
+  opacity: .5;
+}
+
+.cmp-teaser-2 > .teaser-wrapper> .teaser > div > div:nth-child(2) {
+    position: absolute;
+    background-color: #fff;
+    width: 75%;
+    bottom: 1px;
+    left: 150px;
+    padding: 1px 28px;
+    margin: 1px;
+}
+
+.cmp-teaser-3 > .teaser-wrapper> .teaser > div > div:nth-child(2) {
+    position: absolute;
+    background-color: #fff;
+    width: 74%;
+    bottom: 216px;
+    left: 163px;
+    padding: 0 28px 10px;
+    margin-top: -180px;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser > div > div:nth-child(2) {
+    background-color: #fff;
+    width: 97%;
+    padding: 0 8px 8px;
+    margin: 0 auto;
+}
+
+.cmp-teaser-1:hover > .teaser-wrapper > .teaser > div > div:nth-child(2) {
+    background-color: #d7ecf3;
+    transition: background-color 0.5s;
+
+}
+
+.cmp-teaser-2 > .teaser-wrapper> .teaser img {
+    margin: 0;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+
+.cmp-teaser-3> .teaser-wrapper > .teaser img {
+    margin: 0;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+
+.cmp-teaser-5 > .teaser-wrapper> .teaser img {
+    margin: 0;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser img {
+    margin: 0;
+    object-fit: cover;
+    object-position: bottom;
+    width: 100%;
+}
+
+.cmp-teaser-1:hover > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1.02);
+    transition-duration: 1s;
+}
+
+.cmp-teaser-1:not(:hover) > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1);
+    transition-duration: 1s;
+}
+
+.cmp-teaser-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.cmp-teaser-2 > .teaser-wrapper> .teaser picture {
+    width: 100%;
+    height: 100%;
+}
+
+.cmp-teaser-2 > .teaser-wrapper> .teaser h2 {
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.cmp-teaser-2 > .teaser-wrapper> .teaser p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: justify;
+    margin-bottom: 33px;
+    font-family: sans-serif;
+    
+}
+
+.cmp-teaser-2 > .teaser-wrapper> .teaser a:hover{
+  opacity: .5;
+}
+
+.cmp-teaser-2:hover > .teaser-wrapper > .teaser > div > div:nth-child(2) {
+    background-color: #d7ecf3;
+    transition: background-color 0.5s;
+}
+
+.cmp-teaser-2:hover > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1.02);
+    transition-duration: 1s;
+}
+
+.cmp-teaser-2:not(:hover) > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1);
+    transition-duration: 1s;
+}
+
+.cmp-teaser-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.cmp-teaser-3:hover > .teaser-wrapper > .teaser > div > div:nth-child(2) {
+    background-color: #d7ecf3;
+    transition: background-color 0.5s;
+}
+
+.cmp-teaser-3> .teaser-wrapper > .teaser picture {
+    width: 100%;
+    height: 100%;
+}
+
+.cmp-teaser-3> .teaser-wrapper > .teaser h2 {
+    color: #3a3a3a;
+    font-family:"Tiempos Headline", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.cmp-teaser-3> .teaser-wrapper > .teaser p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: justify;
+    margin-bottom: 33px;
+    font-family: sans-serif;
+    
+}
+
+.cmp-teaser-3:hover > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1.02);
+    transition-duration: 1s;
+}
+
+.cmp-teaser-3:not(:hover) > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1);
+    transition-duration: 1s;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser picture {
+    width: 100%;
+    height: 100%;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser h2 {
+    color: #3a3a3a;
+    font-family:"Tiempos Headline", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.cmp-teaser-4 > .teaser-wrapper> .teaser p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: justify;
+    margin-bottom: 33px;
+    font-family: sans-serif;
+    
+}
+
+
+.cmp-teaser-4:hover > .teaser-wrapper > .teaser > div > div:nth-child(2) {
+    background-color: #d7ecf3;
+    /* transition: background-color 0.5s; */
+}
+
+.cmp-teaser-4:hover > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1.02);
+    /* transition-duration: 0.5s; */
+}
+
+.cmp-teaser-4:not(:hover) > .teaser-wrapper > .teaser > div > div:nth-child(1) img {
+    transform: scale(1);
+    /* transition-duration: 0.5s; */
+}
+
+.cmp-teaser-5 > .teaser-wrapper> .teaser picture {
+    width: 100%;
+    height: 100%;
+}
+
+.cmp-teaser-5 > .teaser-wrapper> .teaser h2 {
+    color: #3a3a3a;
+    font-family:"Tiempos Headline", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 20px 0;
+}
+
+.cmp-teaser-5 > .teaser-wrapper> .teaser p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.75;
+    text-align: justify;
+    font-family: sans-serif;
+}
